@@ -95,7 +95,7 @@
 					<div class="row">
 						<div class="col-lg-4 col-xs-10">
 							<div id="logo" class="clearfix">
-								<a href="<?php echo get_home_url(); ?>"><img style="height: 75px;" class="img-responsive" src="<?php the_field('logo', 'option'); ?>" alt="<?php bloginfo('name'); ?>" /></a>
+								<a href="<?php echo get_home_url(); ?>"><img class="img-responsive" src="<?php the_field('logo', 'option'); ?>" alt="<?php bloginfo('name'); ?>" /></a>
 							</div>
 						</div>
 						<div class="col-lg-8 col-xs-2">

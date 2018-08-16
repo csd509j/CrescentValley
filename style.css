@@ -1,7 +1,7 @@
 /*
 Theme Name: Crescent Valley High School
 Template: csdschools
-Version: 1.1.8
+Version: 1.1.9
 */
 a { color: #580821; }
 
@@ -21,7 +21,7 @@ h2 { color: #580821; }
 
 .btn-primary, .gform_button, #loginform #wp-submit, .acf-form .acf-button { background-color: #580821; }
 
-.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .gform_button:hover, .gform_button:active, .gform_button:focus, .acf-form .acf-button:hover, .acf-form .acf-button:active, .acf-form .acf-button:focus { background-color: #3c0516; }
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .gform_button:hover, .gform_button:active, .gform_button:focus, .acf-form .acf-button:hover, .acf-form .acf-button:active, .acf-form .acf-button:focus, #loginform #wp-submit:hover, .open > .btn-primary.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle, .btn-primary:active:hover, .btn-primary:active:focus { background-color: #3c0516; }
 
 .btn-secondary { background-color: #FCB644; color: #ffffff; }
 

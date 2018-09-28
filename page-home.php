@@ -217,7 +217,9 @@ get_header(); ?>
 						<h1 class="text-white strong margin-bottom-one">The Latest from CVTV</h1>
 						<p class="lead">Stay up to date on the latest happenings around CV.</p>
 						<div class="embed-responsive embed-responsive-16by9">
-							<iframe class="embed-responsive-item" src="<?php the_field('video_url', 'options'); ?>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+							<?php $video_url = get_field('video_url', 'options'); ?>
+							<?php $v = substr($video_url, strpos($video_url, "v=") + 2); ?>
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo $v; ?>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>

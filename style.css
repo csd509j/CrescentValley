@@ -1,7 +1,7 @@
 /*
 Theme Name: Crescent Valley High School
 Template: csdschools
-Version: 1.2.0
+Version: 1.2.1
 */
 a { color: #580821; }
 
@@ -46,10 +46,6 @@ h2 { color: #580821; }
 .carousel-wrap .item .carousel-caption .carousel-title { background-color: #FCB644; }
 
 .carousel-wrap .item .carousel-caption .carousel-title h3 { color: #ffffff; }
-
-.carousel-wrap .carousel-indicators li { border: 1px solid #580821; }
-
-.carousel-wrap .carousel-indicators .active { background-color: #580821; }
 
 #sidebar-first h2, #sidebar-first h4 { background: #580821; }
 

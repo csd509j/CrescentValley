@@ -1,0 +1,305 @@
+//***********************
+// School Specific Colors
+//***********************
+
+//** Global heading color on `<body>`.
+$headings-link-color:				$brand-primary !default;
+$text-color: 						#212529;
+//== Links
+//
+//** Global textual link color.
+$link-color:            			$brand-primary !default;
+$link-hover-color:      			darken($link-color, 15%) !default;
+
+//== Components
+//
+//** Global background color for active items (e.g., navs or dropdowns).
+$component-active-bg:       		$brand-primary !default;
+
+//== Labels
+//
+//** Primary label background color
+$label-primary-bg:            		$brand-primary !default;
+//** Success label background color
+$label-success-bg:            		$brand-success !default;
+//** Info label background color
+$label-info-bg:               		$brand-info !default;
+//** Warning label background color
+$label-warning-bg:            		$brand-warning !default;
+//** Danger label background color
+$label-danger-bg:             		$brand-danger !default;
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+$btn-primary-bg:                 	$brand-primary !default;
+$btn-primary-border:             	darken($btn-primary-bg, 5%) !default;
+$btn-secondary-bg:               	$brand-secondary !default;
+$btn-secondary-border:           	darken($btn-secondary-bg, 5%) !default;
+$btn-secondary-color:				#ffffff;
+$btn-success-bg:                 	$brand-success !default;
+$btn-success-border:             	darken($btn-success-bg, 5%) !default;
+$btn-info-bg:                    	$brand-info !default;
+$btn-info-border:                	darken($btn-info-bg, 5%) !default;
+$btn-warning-bg:                 	$brand-warning !default;
+$btn-warning-border:             	darken($btn-warning-bg, 5%) !default;
+$btn-danger-bg:                  	$brand-danger !default;
+$btn-danger-border:              	darken($btn-danger-bg, 5%) !default;
+
+//== Navbar
+//
+//##
+$nav-color:							white;
+$navbar-default-bg:					$brand-primary !default;
+// Navbar links
+$navbar-default-link-color:         $brand-primary !default;
+$navbar-default-link-hover-color:   $brand-primary !default;
+$navbar-default-link-hover-border: 	2px solid $brand-primary !default;
+$navbar-default-link-active-color:  $brand-primary !default;
+$navbar-default-link-active-bg:     lighten($navbar-default-bg, 6.5%) !default;
+
+//== Home Carousel
+//
+//##
+$carousel-title-color:				#ffffff;
+$carousel-title-background:			$brand-secondary;
+
+//***********************
+// Styles
+//***********************
+//== Typography
+//
+//##
+a {
+	color: $link-color;
+}
+a:hover, a:focus {
+	color: darken($link-color, 6%);
+}
+h1 a, h2 a, h3 a, h4 a, h5 a {
+	color: $headings-link-color;
+}
+.news-item a:hover, .news-item a:focus {
+	color: darken($headings-link-color, 6%);
+	text-decoration: none;
+}
+h2 {
+	color: $brand-primary;
+}
+.subhead h3, .subhead h5{
+	color: $brand-primary;
+}
+.text-primary {
+	color: $brand-primary !important;
+}
+.text-secondary {
+	color: $brand-secondary !important;
+}
+//== Backgrounds
+//
+//##
+.bg-primary {
+	background-color: $brand-primary !important;
+}
+.bg-secondary {
+	background-color: $brand-secondary !important;
+}
+//== Buttons
+//
+//##
+.btn-primary, .gform_button, #loginform #wp-submit, .acf-form .acf-button {
+	background-color: $brand-primary;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .gform_button:hover, .gform_button:active, .gform_button:focus, .acf-form .acf-button:hover, .acf-form .acf-button:active, .acf-form .acf-button:focus, #loginform #wp-submit:hover, .open > .btn-primary.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle, .btn-primary:active:hover, .btn-primary:active:focus {
+	background-color: darken($brand-primary, 6%) !important;	
+}
+.btn-secondary {
+	background-color: $btn-secondary-bg;
+	color: $btn-secondary-color;
+}
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
+	background-color: darken($brand-secondary, 6%) !important;
+	color: $btn-secondary-color;
+}
+.show>.btn-primary.dropdown-toggle {
+	background-color: $btn-primary-bg;
+}
+.show>.btn-primary.dropdown-toggle:focus {
+	box-shadow: none;
+}
+//== Header
+//
+//##
+#header-top-global {
+	background: $header-top-global-bg;
+	color: $header-top-global-color;
+}
+#header-top-global li:hover, #header-top-global .fa:hover {
+	background-color: darken($header-top-global-bg, 5%);
+}
+#header-global {
+	background-color: $header-global-bg;
+	color: $header-global-color;
+}
+#header-top-global a {
+	color: $header-top-global-color;
+}
+#header-global .ubermenu-transition-fade .ubermenu-item .ubermenu-submenu-drop {
+	background-color: $brand-primary;
+}
+#header-global .ubermenu-skin-vanilla .ubermenu-item-level-0 > .ubermenu-target:hover, #header-global .ubermenu-skin-vanilla .ubermenu-active > .ubermenu-target  {
+	background-color: $brand-primary;
+}
+#nav-top-links {
+	background-color: $header-top-global-bg;
+}
+#header-top-global .ubermenu-toplinks .ubermenu-submenu.ubermenu-submenu-drop {
+	background-color: $header-top-global-bg;
+}
+#header-global {
+	.menu-btn {
+		.btn {
+			&:focus {
+				color: $brand-primary;
+			}
+		}
+	}
+}
+//== Home Carousel
+//
+//##
+.carousel-wrap {
+	.carousel-item {		
+		.carousel-caption {
+			.carousel-title {
+				background-color: $brand-primary;
+				h3 {
+					color: white;
+				}
+			}
+		}
+	}
+}
+//== Page Sidebar
+//
+//##
+#sidebar-first {
+	h2, h4 {
+    	background: $brand-primary;
+    }
+}
+.sidebar-callouts {
+   	.sidebar-callout-inner {
+		a {
+			h4 {
+				color: $brand-primary;
+			}
+		}
+	}
+}
+//== Footer
+//
+//##
+#footer-top {
+	a {
+		color: $brand-primary;
+	}
+}
+
+//== Full Width Page
+//
+//##
+#full-width-header {
+	background-color: $brand-primary;
+}
+#full-width-nav {
+	background-color: $brand-secondary;
+	a {
+		color: $text-color;
+	}
+	.current_page_item:after {
+	    border-top-color: $brand-secondary;
+	}
+}
+#tabs-block {
+	.tab-header-color {
+		.nav-tabs {
+			a {
+				color: $brand-primary;
+			}
+			>li>a.active,
+			>li>a.active:hover,
+			>li>a.active:focus {
+			    border-bottom: 4px solid $brand-primary;
+			}
+		}
+	}
+	.tab-list-item {
+	    h3 {
+		    color: $brand-primary;
+		}	
+	}
+}
+#cta-block {
+	.gform_footer {
+		.gform_button,
+		.gform_button:hover {
+		    color: $brand-primary;
+		}
+	}
+	h2 {
+		color: $text-color;
+	}
+	.btn {
+		@extend .btn-primary;
+		color: white;
+	}
+}
+
+//== Responsive
+//
+//##
+@media (max-width: 767px) {
+	#header-mobile {
+		background-color: $brand-primary;
+	}
+	#header-mobile .ubermenu .ubermenu-retractor {
+		background-color: $brand-primary;
+	}
+	#header-mobile .ubermenu .ubermenu-item {
+		border-bottom: 1px solid $brand-primary;
+	}
+	.full-width-container {
+		.full-width-block {
+			padding: 1em;
+		}
+		.headline:before, .headline:after {
+			content: none;	
+		}
+	}
+}
+
+//== Translate Button
+//
+//##
+.translated-btn .dropdown-menu {
+	background-color: $brand-secondary;
+	color: white;
+}
+.translated-btn .dropdown-menu > li > a {
+	color: white;
+}
+#header-top-global .translated-btn li:hover, .translated-btn .dropdown-menu > li > a:hover, .translated-btn .dropdown-menu > li > a:focus {
+	background-color: transparent;
+	color: white;
+}
+
+//== Calendar
+//
+//##
+#calendar.fc th {
+	background-color: $brand-primary;
+}
+#calendar.fc .fc-row .fc-content-skeleton .fc-day-top.fc-today { 
+	background-color: $brand-secondary;	
+}

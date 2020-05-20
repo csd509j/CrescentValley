@@ -1,0 +1,24 @@
+/*!
+Theme Name: Crescent Valley High School
+Template: csdschools
+heme URI: https://abidewebdesign.com
+Author: Abide Web Design
+Author URI: https://abidewebdesign.com
+Description: The official theme for Crescent Valley High School.
+Version: 1.3.0
+*/
+
+// Theme colors
+$header-top-global-bg:		#580821 !default;
+$header-top-global-color:	#ffffff !default;
+$header-global-bg:			#ffffff !default;
+$header-global-color:		#333333 !default;
+$brand-primary:         		#580821 !default; 
+$brand-secondary:			#FCB644 !default;
+$brand-success:         		#5cb85c !default;
+$brand-info:            		#5bc0de !default;
+$brand-warning:         		#f0ad4e !default;
+$brand-danger:          		#d9534f !default;
+$header-color:				#ffffff !default;
+
+@import "school-colors";  

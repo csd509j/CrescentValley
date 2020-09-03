@@ -220,6 +220,16 @@ h2 {
 	.current_page_item:after {
 	    border-top-color: $brand-secondary;
 	}
+	.navbar-light {
+		.navbar-toggler {
+			color: $text-color;
+		}
+	}
+	#subpage-nav-mobile {
+		a {
+			color: $text-color;
+		}
+	}
 }
 #tabs-block {
 	.tab-header-color {
